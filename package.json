@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"mkdir -p dist/css && npx @tailwindcss/cli -i ./src/css/input.css -o ./dist/css/output.css && cp -r ./src/* ./dist/",
+"build": "mkdir -p dist/css && npx @tailwindcss/cli -i ./src/css/input.css -o ./dist/css/output.css && cp -r ./src/*.html ./dist/ && cp -r ./src/images ./dist/ && cp -r ./src/webfonts ./dist/ && cp -r ./src/css/all.min.css ./dist/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
